@@ -25,6 +25,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bin/backuptool.functions:system/bin/backuptool.functions \
     $(LOCAL_PATH)/bin/backuptool.sh:system/bin/backuptool.sh
 
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/sicki/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/sicki/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.sicki.version=SickGreen-AOSP-Alpha-v0.5
