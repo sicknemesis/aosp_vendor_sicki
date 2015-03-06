@@ -28,3 +28,5 @@ PRODUCT_COPY_FILES += \
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.sicki.version=SickGreen-AOSP-Alpha-v0.5
+
+include vendor/sicki/configs/gcc.mk
