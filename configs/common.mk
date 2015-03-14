@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bin/backuptool.functions:system/bin/backuptool.functions \
     $(LOCAL_PATH)/bin/backuptool.sh:system/bin/backuptool.sh
 
+# init.d support
+PRODUCT_COPY_FILES += \
+    vendor/sicki/prebuilt/common/etc/init.sicki.rc:root/init.sicki.rc
+
 # SuperSU
 PRODUCT_COPY_FILES += \
     vendor/sicki/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
