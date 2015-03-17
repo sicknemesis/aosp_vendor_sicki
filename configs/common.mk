@@ -33,7 +33,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/sicki/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/sicki/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
-
+#SickGreen bootanimation
+PRODUCT_COPY_FILES += \
+        vendor/sicki/prebuilt/common/bootanimation/sickgreen.zip:system/media/bootanimation.zip
+#SickGreen wallpaper
+# Common overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/sicki/overlay/common/
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.sicki.version=SickGreen-AOSP-Alpha-v0.5
