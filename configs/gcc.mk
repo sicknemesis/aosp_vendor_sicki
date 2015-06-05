@@ -2,7 +2,7 @@
 # All credits to original creator, not me!
 
 # Your toolchain version, used for rom
-GCC_VERSION := 4.8
+GCC_VERSION := 4.9
 # Path rom toolchain
 GCC_AND_PATH := prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-$(GCC_VERSION)
 #Checks version info
