@@ -41,6 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/sicki/overlay/common/
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
-   ro.sicki.version=SickGreen-AOSP-r14
+   ro.sicki.version=SickGreen-AOSP-M
 
 include vendor/sicki/configs/gcc.mk
