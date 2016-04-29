@@ -16,6 +16,16 @@
 # Brand
 PRODUCT_BRAND ?= sicki
 
+#Backuptool support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/addon.d/666-sicki.sh:system/addon.d/666-sicki.sh \
+    $(LOCAL_PATH)/bin/backuptool.functions:system/bin/backuptool.functions \
+    $(LOCAL_PATH)/bin/backuptool.sh:system/bin/backuptool.sh
+
+# init.d support
+PRODUCT_COPY_FILES += \
+    vendor/sicki/prebuilt/common/etc/init.sicki.rc:root/init.sicki.rc
+
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.sicki.version=Sicki-AOSP
