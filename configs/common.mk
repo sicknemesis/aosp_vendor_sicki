@@ -30,3 +30,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.sicki.version=Sicki-AOSP
 
+include vendor/sicki/configs/gcc.mk
