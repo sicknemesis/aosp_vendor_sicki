@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
 
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/sicki/prebuilt/common/etc/init.sicki.rc:root/init.sicki.rc
+    vendor/sicki/prebuilts/common/etc/init.sicki.rc:root/init.sicki.rc
 
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
