@@ -16,6 +16,14 @@
 # Brand
 PRODUCT_BRAND ?= sicki
 
+# Local path for prebuilts
+LOCAL_PATH := vendor/sicki/prebuilts/common/system
+
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/sicki/prebuilts/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/sicki/prebuilts/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+
 #Backuptool support
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/addon.d/666-sicki.sh:system/addon.d/666-sicki.sh \
