@@ -13,5 +13,5 @@ PRODUCT_MANUFACTURER := LGE
 
 # Build prop fingerprint overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=google/hammerhead/hammerhead:6.0.1/MOB30P/2960889:user/release-keys \
-	PRIVATE_BUILD_DESC="hammerhead-user 6.0.1 MOB30P 2960889 release-keys"
+    BUILD_FINGERPRINT=google/hammerhead/hammerhead:6.0.1/MOB30Y/3067468:user/release-keys \
+    PRIVATE_BUILD_DESC="hammerhead-user 6.0.1 MOB30Y 3067468 release-keys"
